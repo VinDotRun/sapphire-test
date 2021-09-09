@@ -29,11 +29,13 @@ export class UserCommand extends Command {
 			)
 			.addPageBuilder((builder) =>
 				builder //
-					.setContent('This is the second page')
-					.setEmbeds([new MessageEmbed().setTimestamp()])
+					.setEmbeds([new MessageEmbed()
+						.setTitle('Second page')
+						.setTimestamp()])
 			)
 			.addPageBuilder((builder) =>
-				builder //
+				builder
+					.setContent(' ')
 					.setEmbeds([new MessageEmbed()
 						.setTitle('Third page')
 						.setTimestamp()])
