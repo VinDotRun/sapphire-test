@@ -1,0 +1,1 @@
+This is simply a repository forked from [Sapphire Framework examples](https://github.com/sapphiredev/examples) created for learning purposes.
